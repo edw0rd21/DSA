@@ -26,7 +26,9 @@
         return 0;
     }
 
-/*can also be done using pointers(pointer to array of pointers,
+/*hackerank question
+
+can also be done using pointers(pointer to array of pointers,
 then using those pointers, as each sub-array
 
 int** a= new int* [n]; //allocating memory to array of pointers
