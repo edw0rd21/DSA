@@ -1,4 +1,4 @@
-//chef pizza question, codeforce contest 142
+//chef pizza question, codechefcontest 142
 
 #include <iostream>
 
