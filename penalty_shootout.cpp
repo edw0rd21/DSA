@@ -1,4 +1,4 @@
-/* Question:  (source: contest 142, codeforces)
+/* Question:  (source: contest 142, codechef)
 In a football match, a penalty shootout is used to determine the winner if the score is tied after regulation and extra time. Each team takes turns attempting five penalty kicks.
 
 Team A has scored X goals in 3 turns while team B has scored Y goals in 4 turns.
