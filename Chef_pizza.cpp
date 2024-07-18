@@ -1,27 +1,19 @@
-    #include <iostream>
-    #include <vector>
-    
-    int main() {
-        int n, q;
-        std::cin>>n>>q;
-        std::vector<std::vector<int>> a(n);
+#include <iostream>
 
-        for(int i=0; i<n; i++)
-        {
-            int k;
-            std::cin>>k;
-            std::vector<int> arr(k);
-            for (int j=0; j<k; j++)
-            {
-                std::cin>>arr[j];
-            }
-            a[i]= arr;
+
+int main() {
+    int T;
+    std::cin >> T;
+    while (T--) {
+        int X;
+        std::cin >> X;
+        int a = 0;
+        for (int i = 1; i <= X;) {
+            int a = i;
+            i *= 2;
         }
-        while(q--)
-        {  //runs a loop from q to q-1 in decreasing order
-        int i, j;
-        std::cin>>i>>j;
-        std::cout<<a[i][j]<<std::endl;
-        }
-        return 0;
+        int smallerPieces = 2 * (X - a);
+        std::cout << smallerPieces << std::endl;
     }
+    return 0;
+}
