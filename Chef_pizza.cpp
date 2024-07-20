@@ -11,7 +11,7 @@ int main() {
         std::cin >> X;
         int a = 0;
         for (int i = 1; i <= X;) {
-            int a = i;
+            a = i;
             i *= 2;
         }
         int smallerPieces = 2 * (X - a);
